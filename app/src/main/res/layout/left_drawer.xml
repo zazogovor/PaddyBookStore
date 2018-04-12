@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/left_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#D9ffffff"
+    android:choiceMode="singleChoice"
+    android:clickable="true"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:id="@+id/home_btn"
+        style="@style/button_dark"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="88dp"
+        android:clickable="true"
+        android:padding="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/ic_home" />
+
+        <TextView
+            android:id="@+id/home_textview"
+            style="@style/buttonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Home" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_btn"
+        style="@style/button_dark"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:padding="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_btn">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/ic_login" />
+
+        <TextView
+            android:id="@+id/login_textview"
+            style="@style/buttonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Login" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/register_btn"
+        style="@style/button_dark"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:padding="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/login_btn">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/ic_register" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/buttonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Register" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/books_btn"
+        style="@style/button_dark"
+        android:layout_width="201dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:padding="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_btn">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/ic_list" />
+
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/buttonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Books" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/basket_btn"
+        style="@style/button_dark"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:padding="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/books_btn">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:src="@android:drawable/ic_menu_delete" />
+
+        <TextView
+            android:id="@+id/textView6"
+            style="@style/buttonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Basket" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/account_btn"
+        style="@style/button_dark"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:padding="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basket_btn">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:src="@android:drawable/ic_menu_my_calendar" />
+
+        <TextView
+            android:id="@+id/textView7"
+            style="@style/buttonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="My Account" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/logout_btn"
+        style="@style/button_dark"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basket_btn"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/image_border" />
+
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/buttonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Logout" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

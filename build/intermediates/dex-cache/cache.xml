@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\46f8f3211b3831e8e369cdaa0f286ab77d9c7aba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_136aad7d3bb5ca37f4776d7e13ea19711bbda16b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\92910ef57be76913707a48f45effa940d02b5157\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cacb534d73ecd4f8f0665d32ae7447fc97abc13f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\37c84d088e9ec59d7d39a13bb2d79a2af4c61f23\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="364364bf77b4a71afc5930fc3ae57b3f0eea637c">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0c6a6b68a5de4f52eac87c51bb66e963273878cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\221ca86fb317ed15ea1aedec0f4a1b2132e62386\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d8db7f04a0bd7d7d65e9cd5757177eb561cd9f4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_ea78543bf9a8e2f04baca1a9b0f2dcf49f818ec1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.5\7a15a7db50f86c4b64aa3367424a60e3a325b8f1\okhttp-2.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-2.7.5_2befc63528c07f17334cbbe1c1af757568ecc58f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\d92f90241d8d61c7f4e9f324a8bfe89dc72f6136\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_269cb614c7fd45f75012330624619b54b97ddd64\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\d10949b169c1c529b870ca5bd1d567dd4c102b32\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2430e711762a749feb00b3d64858ca4768251b9d">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d196716f92fc7cbde5d6cacf2c771640099463df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\a9c820bb66b270dc56a280417b1ed21344397831\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc8015cd3d3531d80ae1f6b1d137c72fa6740613\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\5f9249fac84cfdcedb31b7074383bca231a31ecf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2259ed397d157b526c9d61e9877810ca90439dc8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\Desktop\fypAndroidT-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e78731dc886aa8954e0b75885af2ff759bdaceec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\218c3ededc252a2fe21c81ff613dcfd622020d38\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5594a368622908d89c47d9a391aa2724fe046c35">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a0b594cb07ef57aeafe300a30489cbaead7351fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\7ece89ee999180e123b097de82b4600caa4ad2de\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b56e64d97b6307e034af85d5f1603fd30110b087\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\1310da377ed75920042e566b263f52788056aa77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e41a052c714bf67f743c22ed74153422ad773f88">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6d236bc5b0d9fa286725fdbdd9d669b2b37ff3b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_c6c8f56651277df6cd7fd353f166e01c0f170e5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\889627bab40d2c4e5bf9b4054bdb2e34a9a2376a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b5312f1fe31d8eef4d25a1f707d9765f83c1a675\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\e832a8a99cf2686e50c8a493ae20e7b9674df1a0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_09d8e3504c9991f0b8252217bb96f38f60279671\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="Z:\Desktop\fypAndroidT-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="87e72d923756e95f89ecf6ba6059f228a7a9d26e">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_682fce3c053af3801f1be25a2d4fceedbc384f71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.8.0\c4ba5371a29ac9b2ad6129b1d39ea38750043eff\gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.8.0_429675ee12d194dd05e697d1b720a06e06d05d20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\9edce7c402ce5300c8b43b2759b5324ecd051619\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_aa8f86afd53669bd5b4221951632bfd71bd32a68\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\2a2df7ec4cde51a2a3cc4e8537286e83f8f89b77\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7aa40d6d7fe0eb3a6074002ae507dd8f301904ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.gradle\caches\modules-2\files-2.1\com.google.maps\google-maps-services\0.1.20\1e0937a4dba57b19d8ea542a8da285f2a96035ab\google-maps-services-0.1.20.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1e0937a4dba57b19d8ea542a8da285f2a96035ab">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\google-maps-services-0.1.20_7406c0239c2f645907d48015342fe373a206a77c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\9bbd1cb78ba9d60643af5a1d857a73c26a80089b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="70ffe00aaf049893f59d1dad57bd82992faa38ef">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b887f56949c182e169db1d14dae807b1de83a7f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\3dbe7aaded4d15b4c6296a381340a8224b71c0e0\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_15d165cb2863285137a0e85e6bf1d7ea61d5eec3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\79edc21bf3e042569fa223a5d01101d2cea96c61\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_72b7459b572f6dd36487a1f58def58d0815968d8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_440973a950a4a28e253f544a81f2bf1a39489268\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\7c39a2ffdef85fffae3fb26ffaa9bf82acf8fd86\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d3690e6c3c30e2785d5a933b9ebcec0fb54a6282\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\9b1e6b5ee9950d89303f2fe5b89bb87c02ea6d67\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="41f47bbcd281fdb1e42e220220ab3bfa1da591e0">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5976638218f925da94f7c27c31ac79ecd753775a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="da76ca59f6a57ee3102f8f9bd9cee742973efa8a">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-api-1.7.25_05a20186e7c2af3c9c0b11e3c07f447a485cbe3c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.android\build-cache\6ebcf65941703f8f28fd9064d3bd8b09a085643a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcae52a60bc07924d370b4d376116cd8f8581f54">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_693b94c66e0bae528725adc20ff54da809826419\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\c12437908\.gradle\caches\modules-2\files-2.1\joda-time\joda-time\2.9.7\6eb2e87ddb09e944bb88f06f19ba0638d4607ffd\joda-time-2.9.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6eb2e87ddb09e944bb88f06f19ba0638d4607ffd">
+        <dex dex="Z:\Desktop\fypAndroidT-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\joda-time-2.9.7_3a33f630aeb4744840256278e2b83048b46d9e38\classes.dex" />
+    </item>
+
+</items>
