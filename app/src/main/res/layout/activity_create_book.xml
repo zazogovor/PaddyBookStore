@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BookHelper.CreateBook">
+    tools:context=".BookActivities.CreateBook">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/mainLayout"
@@ -16,7 +16,7 @@
         android:focusable="true"
         android:focusableInTouchMode="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context=".carpool.CreateCarpool"
+        tools:context=".BookActivities.CreateBook"
         tools:showIn="@layout/activity_create_book">
 
         <EditText

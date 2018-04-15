@@ -1,6 +1,5 @@
 package com.example.c12437908.fypv2;
 
-import android.Manifest;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -17,14 +16,11 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.RelativeLayout;
 
-import com.example.c12437908.fypv2.BookHelper.Basket;
-import com.example.c12437908.fypv2.BookHelper.BooksMenu;
-import com.example.c12437908.fypv2.BusAPI.BusSavedData;
-import com.example.c12437908.fypv2.carpool.CarpoolMenu;
+import com.example.c12437908.fypv2.BookActivities.Basket;
+import com.example.c12437908.fypv2.BookActivities.BooksMenu;
 import com.example.c12437908.fypv2.register_login.LoginActivity;
 import com.example.c12437908.fypv2.register_login.RegisterActivity;
 import com.example.c12437908.fypv2.register_login.SessionManager;
-import com.example.c12437908.fypv2.register_login.UserDetails;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -89,6 +85,7 @@ public class MainActivity extends AppCompatActivity{
     private void setButtonListeners() {
         session = new SessionManager(getApplicationContext());
         Boolean loginState = session.isLoggedIn();
+        session.saveBasket();
 
         register_btn = (RelativeLayout) findViewById(R.id.register_btn);
         login_btn = (RelativeLayout) findViewById(R.id.login_btn);

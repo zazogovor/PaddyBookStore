@@ -2,6 +2,7 @@ package com.example.c12437908.fypv2.Entities;
 
 import com.example.c12437908.fypv2.register_login.SessionManager;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +10,7 @@ import java.util.List;
  * Created by c12437908 on 11/04/2018.
  */
 
-public final class BasketEntity {
+public final class BasketEntity implements Serializable {
 
     private static BasketEntity INSTANCE = new BasketEntity();
 

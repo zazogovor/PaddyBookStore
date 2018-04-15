@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BookHelper.ListBooks">
+    tools:context=".BookActivities.ListBooks">
 
     <ScrollView
         android:id="@+id/scrollView"
@@ -22,18 +22,6 @@
             android:focusableInTouchMode="true"
             app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-            <TextView
-                android:id="@+id/empty_list_title"
-                style="@style/infoText"
-                android:layout_width="110dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="24dp"
-                android:text="Currently, there are no passengers in the Carpool."
-                android:textAlignment="center"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="parent" />
-
             <LinearLayout
                 android:id="@+id/book_list"
                 android:layout_width="match_parent"
@@ -41,7 +29,6 @@
                 android:orientation="vertical"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/empty_list_title"
                 android:layout_marginTop="16dp">
             </LinearLayout>
 

@@ -4,8 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.c12437908.fypv2.BookHelper.FragmentBookDetails;
-import com.example.c12437908.fypv2.BookHelper.FragmentBookReviews;
+import com.example.c12437908.fypv2.BookActivities.FragmentBookDetails;
+import com.example.c12437908.fypv2.BookActivities.FragmentBookReviews;
 
 public class PageAdapter extends FragmentStatePagerAdapter {
     int mNumOfTabs;

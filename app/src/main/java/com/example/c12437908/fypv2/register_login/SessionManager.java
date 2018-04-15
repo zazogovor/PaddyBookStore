@@ -51,9 +51,9 @@ public class SessionManager extends Application{
         return pref.getBoolean(IS_LOGGED_IN, false);
     }
 
-    public void saveBasket(BasketEntity b){
+    public void saveBasket(){
         Gson gson = new Gson();
-        String json = gson.toJson(b);
+        String json = gson.toJson(this.BASKET);
         editor.putString("basket", json);
         editor.commit();
     }

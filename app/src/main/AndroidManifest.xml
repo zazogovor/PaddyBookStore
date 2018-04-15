@@ -29,34 +29,44 @@
                 <action android:name="android.intent.action.REGISTER" />
             </intent-filter>
         </activity>
-        <activity android:name=".carpool.CreateCarpool">
+        <activity android:name=".BookActivities.BooksMenu">
             <intent-filter>
-                <action android:name="android.intent.action.CREATE_CARPOOL" />
+                <action android:name="android.intent.action.BOOK_MENU" />
             </intent-filter>
         </activity>
-        <activity android:name=".carpool.CarpoolDetails">
+        <activity android:name=".BookActivities.CreateBook">
             <intent-filter>
-                <action android:name="android.intent.action.CARPOOL_DETAILS" />
+                <action android:name="android.intent.action.CREATE_BOOK" />
             </intent-filter>
         </activity>
-        <activity android:name=".carpool.SearchCarpools">
+        <activity android:name=".BookActivities.Basket">
             <intent-filter>
-                <action android:name="android.intent.action.CARPOOL_SEARCH" />
+                <action android:name="android.intent.action.BASKET" />
             </intent-filter>
         </activity>
-        <activity android:name=".carpool.CarpoolSearchResults">
+        <activity android:name=".BookActivities.BookDetails">
             <intent-filter>
-                <action android:name="android.intent.action.CARPOOL_SEARCH_RESULTS" />
+                <action android:name="android.intent.action.BOOK_DETAILS" />
             </intent-filter>
         </activity>
-        <activity android:name=".carpool.CarpoolMenu">
+        <activity android:name=".BookActivities.ListBooks">
             <intent-filter>
-                <action android:name="android.intent.action.CARPOOL_MENU" />
+                <action android:name="android.intent.action.LIST_BOOKS" />
             </intent-filter>
         </activity>
-        <activity android:name=".carpool.ListCarpools">
+        <activity android:name=".BookActivities.CreateReview">
             <intent-filter>
-                <action android:name="android.intent.action.CARPOOL_LIST_CARPOOLS" />
+                <action android:name="android.intent.action.CREATE_REVIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BookActivities.SearchBooks">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH_BOOKS" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BookActivities.Payment">
+            <intent-filter>
+                <action android:name="android.intent.action.PAYMENT" />
             </intent-filter>
         </activity>
     </application>

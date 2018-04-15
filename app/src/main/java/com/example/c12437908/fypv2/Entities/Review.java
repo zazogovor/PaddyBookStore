@@ -1,10 +1,12 @@
 package com.example.c12437908.fypv2.Entities;
 
+import java.io.Serializable;
+
 /**
  * Created by cinema on 4/14/2018.
  */
 
-public class Review {
+public class Review  implements Serializable {
 
     private int id;
     private int rating;
