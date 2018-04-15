@@ -17,6 +17,7 @@ import com.example.c12437908.fypv2.Entities.User;
 import com.example.c12437908.fypv2.MainActivity;
 import com.example.c12437908.fypv2.R;
 import com.example.c12437908.fypv2.carpool.CarpoolMenu;
+import com.example.c12437908.fypv2.carpool.CreateCarpool;
 import com.example.c12437908.fypv2.register_login.LoginActivity;
 import com.example.c12437908.fypv2.register_login.RegisterActivity;
 import com.example.c12437908.fypv2.register_login.SessionManager;
@@ -135,6 +136,18 @@ public class BooksMenu extends AppCompatActivity{
                     startActivity(new Intent(BooksMenu.this, LoginActivity.class));
                 }
             });
+        }
+
+        if(session.getUser().getType().equals("ADMIN")){
+            add_book_btn.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    startActivity(new Intent(BooksMenu.this, CreateBook.class));
+                }
+            });
+        }
+        else{
+            add_book_btn.setVisibility(View.GONE);
         }
 
         logout_btn.setOnClickListener(new View.OnClickListener() {

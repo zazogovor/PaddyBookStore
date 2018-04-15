@@ -26,7 +26,7 @@ public class UserDetails extends AppCompatActivity {
     private ActionBarDrawerToggle mDrawerToggle;
     private CharSequence mDrawerTitle;
     private ActionBar actionBar;
-    RelativeLayout register_btn, login_btn, carpool_btn, home_btn, logout_btn, books_btn, basket_btn, account_btn;
+    RelativeLayout register_btn, login_btn, home_btn, logout_btn, books_btn, basket_btn, account_btn;
 
     SessionManager session;
 

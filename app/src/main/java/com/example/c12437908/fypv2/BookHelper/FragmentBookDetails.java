@@ -2,6 +2,7 @@ package com.example.c12437908.fypv2.BookHelper;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,6 +14,9 @@ import android.widget.ImageView;
 import android.widget.NumberPicker;
 import android.widget.RatingBar;
 
+import com.example.c12437908.fypv2.Entities.BasketEntity;
+import com.example.c12437908.fypv2.Entities.BasketItem;
+import com.example.c12437908.fypv2.Entities.Book;
 import com.example.c12437908.fypv2.R;
 import com.example.c12437908.fypv2.carpool.CreateCarpool;
 import com.example.c12437908.fypv2.register_login.SessionManager;
@@ -34,7 +38,7 @@ public class FragmentBookDetails extends Fragment implements NumberPicker.OnValu
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_carpool_details, container, false);
+        return inflater.inflate(R.layout.fragment_book_details, container, false);
     }
 
     @Override
@@ -42,6 +46,9 @@ public class FragmentBookDetails extends Fragment implements NumberPicker.OnValu
         super.onActivityCreated(savedInstanceState);
         View v = getView();
         session = new SessionManager(getActivity().getApplicationContext());
+        final Intent intent = getActivity().getIntent();
+        Bundle args = intent.getBundleExtra("BUNDLE");
+        final Book b = (Book) args.get("book");
 
         bookImage = (ImageView) v.findViewById(R.id.book_img);
         title_et = (EditText) v.findViewById(R.id.title_et);
@@ -54,16 +61,18 @@ public class FragmentBookDetails extends Fragment implements NumberPicker.OnValu
         buy_btn = (Button) v.findViewById(R.id.buy_btn);
         save_btn = (Button) v.findViewById(R.id.save_btn);
 
+        title_et.setText(b.getTitle());
+        author_et.setText(b.getAuthor());
+        isbn_et.setText(b.getISBN());
+        price_et.setText("" + b.getPrice());
+        stock_et.setText(b.getQuantity());
+        rating.setNumStars(b.getRating());
+
         title_et.setEnabled(false);
         author_et.setEnabled(false);
         isbn_et.setEnabled(false);
         price_et.setEnabled(false);
         stock_et.setEnabled(false);
-
-
-        //get passed in intent and assign values to book
-
-
 
         if(session.isLoggedIn()){
 
@@ -91,12 +100,11 @@ public class FragmentBookDetails extends Fragment implements NumberPicker.OnValu
                 {
                     @Override
                     public void onClick(View v) {
-                        quantity = np.getValue();
+                        BasketEntity be = session.getBasket();
+                        be.addBookToBasket(b, np.getValue());
+                        session.saveBasket(be);
+
                         d.dismiss();
-
-
-                        //intent stuff
-
                     }
                 });
                 b2.setOnClickListener(new View.OnClickListener()

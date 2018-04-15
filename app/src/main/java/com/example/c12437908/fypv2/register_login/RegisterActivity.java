@@ -138,6 +138,7 @@ public class RegisterActivity extends AppCompatActivity {
                         parameters.put("username", username.getText().toString());
                         parameters.put("email", email.getText().toString());
                         parameters.put("password", password.getText().toString());
+                        parameters.put("type", "customer");
                         return parameters;
                     }
                 };

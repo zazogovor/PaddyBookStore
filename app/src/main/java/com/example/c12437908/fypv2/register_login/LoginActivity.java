@@ -26,8 +26,10 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.c12437908.fypv2.BookHelper.Basket;
 import com.example.c12437908.fypv2.BookHelper.BooksMenu;
+import com.example.c12437908.fypv2.Entities.User;
 import com.example.c12437908.fypv2.MainActivity;
 import com.example.c12437908.fypv2.R;
+import com.google.gson.Gson;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -123,11 +125,13 @@ public class LoginActivity extends AppCompatActivity {
                 StringRequest request = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>(){
                     @Override
                     public void onResponse(String s) {
-                        if(s.equals("1")){
+                        if(!s.equals("0")){
+                            Gson gson = new Gson();
+                            User u = gson.fromJson(s, User.class);
+                            session.loginSession(u);
+
                             startActivity(new Intent(LoginActivity.this, MainActivity.class));
                             Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_LONG).show();
-
-                            session.loginSession(username.getText().toString(), password.getText().toString());
                         }
                         else{
                             Toast.makeText(LoginActivity.this, "Could not Login, try again.", Toast.LENGTH_LONG).show();

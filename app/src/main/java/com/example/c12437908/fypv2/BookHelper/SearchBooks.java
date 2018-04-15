@@ -7,13 +7,11 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.RelativeLayout;
 
 import com.example.c12437908.fypv2.MainActivity;
 import com.example.c12437908.fypv2.R;
-import com.example.c12437908.fypv2.carpool.CarpoolMenu;
 import com.example.c12437908.fypv2.register_login.LoginActivity;
 import com.example.c12437908.fypv2.register_login.RegisterActivity;
 import com.example.c12437908.fypv2.register_login.SessionManager;

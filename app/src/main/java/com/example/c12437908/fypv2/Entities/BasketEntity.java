@@ -1,5 +1,7 @@
 package com.example.c12437908.fypv2.Entities;
 
+import com.example.c12437908.fypv2.register_login.SessionManager;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +13,7 @@ public final class BasketEntity {
 
     private static BasketEntity INSTANCE = new BasketEntity();
 
-    private List<Book> books = new ArrayList<Book>();
+    private List<BasketItem> books = new ArrayList<BasketItem>();
 
     private BasketEntity(){
 
@@ -21,7 +23,13 @@ public final class BasketEntity {
         return INSTANCE;
     }
 
-    public List<Book> getBooks() {
+    public List<BasketItem> getBooks() {
         return books;
+    }
+
+    public void addBookToBasket(Book book, int quantity){
+        BasketItem item = new BasketItem(book, quantity);
+
+        books.add(item);
     }
 }

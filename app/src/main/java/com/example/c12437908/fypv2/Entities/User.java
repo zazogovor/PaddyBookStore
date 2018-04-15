@@ -9,18 +9,19 @@ import java.io.Serializable;
 public class User implements Serializable{
     private int id;
     private String username;
-
     private String password;
     private String email;
+    private String type;
 
     public User(){
 
     }
 
-    public User(String username,String email, String password) {
+    public User(String username,String email, String password, String type) {
         this.username = username;
         this.password = password;
         this.email = email;
+        this.type = type;
     }
 
     public int getId() {
@@ -53,5 +54,13 @@ public class User implements Serializable{
 
     public void setEmail(String email){
         this.email = email;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

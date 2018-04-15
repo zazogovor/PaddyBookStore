@@ -1,5 +1,8 @@
 package com.example.c12437908.fypv2.Entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by c12437908 on 10/04/2018.
  */
@@ -13,11 +16,12 @@ public class Book {
     private String image;
     private int quantity;
     private double price;
+    List<Review> reviews = new ArrayList<Review>();
 
     public Book() {
     }
 
-    public Book(int id, String ISBN, String title, String author, int rating, String image, int quantity, double price) {
+    public Book(int id, String ISBN, String title, String author, int rating, String image, int quantity, double price, List<Review> reviews) {
         this.id = id;
         this.ISBN = ISBN;
         this.title = title;
@@ -26,6 +30,7 @@ public class Book {
         this.image = image;
         this.quantity = quantity;
         this.price = price;
+        this.reviews = reviews;
     }
 
     public int getId() {
@@ -86,6 +91,14 @@ public class Book {
 
     public double getPrice() {
         return price;
+    }
+
+    public List<Review> getReviews() {
+        return reviews;
+    }
+
+    public void setReviews(List<Review> reviews) {
+        this.reviews = reviews;
     }
 
     public void setPrice(double price) {

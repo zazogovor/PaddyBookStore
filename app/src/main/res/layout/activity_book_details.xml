@@ -8,7 +8,7 @@
     tools:context=".BookHelper.BookDetails">
 
     <RelativeLayout
-        android:id="@+id/activity_carpool_details"
+        android:id="@+id/activity_book_details"
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
