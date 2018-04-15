@@ -14,11 +14,11 @@ import android.widget.RelativeLayout;
 
 import com.example.c12437908.fypv2.MainActivity;
 import com.example.c12437908.fypv2.R;
-import com.example.c12437908.fypv2.carpool.CarpoolMenu;
 import com.example.c12437908.fypv2.register_login.LoginActivity;
 import com.example.c12437908.fypv2.register_login.RegisterActivity;
 import com.example.c12437908.fypv2.register_login.SessionManager;
 import com.example.c12437908.fypv2.register_login.UserDetails;
+import com.example.c12437908.fypv2.PagerAdapters.PageAdapter;
 
 /**
  * Created by c12437908 on 10/04/2018.
@@ -55,8 +55,7 @@ public class BookDetails extends AppCompatActivity{
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
-        final CarpoolListPagerAdapter adapter = new CarpoolListPagerAdapter
-                (getSupportFragmentManager(), tabLayout.getTabCount());
+        final PageAdapter adapter = new PageAdapter(getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {

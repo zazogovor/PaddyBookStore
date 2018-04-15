@@ -6,9 +6,6 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 
 import com.example.c12437908.fypv2.BookHelper.FragmentBookDetails;
 import com.example.c12437908.fypv2.BookHelper.FragmentBookReviews;
-import com.example.c12437908.fypv2.carpool.CarpoolDetailsFragment;
-import com.example.c12437908.fypv2.carpool.CarpoolMapFragment;
-import com.example.c12437908.fypv2.carpool.CarpoolPassengerListFragment;
 
 public class PageAdapter extends FragmentStatePagerAdapter {
     int mNumOfTabs;
