@@ -47,7 +47,6 @@ public class LoginActivity extends AppCompatActivity {
     EditText username, password;
     Button loginButton;
     TextView registerLink;
-    String URL = "http://10.0.2.2:8080/api/user/login";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -122,6 +121,7 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String URL = "http://10.0.2.2:8080/api/user/login";
                 StringRequest request = new StringRequest(Request.Method.POST, URL, new Response.Listener<String>(){
                     @Override
                     public void onResponse(String s) {

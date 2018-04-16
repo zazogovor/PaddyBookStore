@@ -1,6 +1,7 @@
 package com.example.c12437908.fypv2.BookActivities;
 
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -8,8 +9,12 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -42,7 +47,7 @@ public class ListBooks extends AppCompatActivity{
     private ActionBarDrawerToggle mDrawerToggle;
     private CharSequence mDrawerTitle;
     private ActionBar actionBar;
-    private RelativeLayout register_btn, login_btn, carpool_btn, home_btn, logout_btn, books_btn, basket_btn, book_info_btn;
+    private RelativeLayout register_btn, login_btn, home_btn, logout_btn, books_btn, basket_btn, book_info_btn;
     private TextView title_tv, author_tv, isbn_tv, price_tv, stock_tv;
 
     SessionManager session;
@@ -226,5 +231,45 @@ public class ListBooks extends AppCompatActivity{
                 startActivity(new Intent(ListBooks.this, Basket.class));
             }
         });
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        mDrawerToggle.syncState();
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        mDrawerToggle.onConfigurationChanged(newConfig);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (mDrawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        hideKeyboard();
+        return super.onPrepareOptionsMenu(menu);
+    }
+
+    private boolean hideKeyboard() {
+        InputMethodManager imm = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+        return true;
     }
 }

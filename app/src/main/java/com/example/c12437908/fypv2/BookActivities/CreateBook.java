@@ -270,7 +270,6 @@ public class CreateBook extends AppCompatActivity implements NumberPicker.OnValu
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main, menu);
-        menu.findItem(R.id.action_websearch).setVisible(false);
         return super.onCreateOptionsMenu(menu);
     }
 

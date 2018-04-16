@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity{
     private ActionBarDrawerToggle mDrawerToggle;
     private CharSequence mDrawerTitle;
     private ActionBar actionBar;
-    RelativeLayout register_btn, login_btn, carpool_btn, home_btn, logout_btn, books_btn, basket_btn, account_btn;
+    RelativeLayout register_btn, login_btn, home_btn, logout_btn, books_btn, basket_btn;
 
     SessionManager session;
 
@@ -93,7 +93,6 @@ public class MainActivity extends AppCompatActivity{
         logout_btn = (RelativeLayout) findViewById(R.id.logout_btn);
         books_btn = (RelativeLayout) findViewById(R.id.books_btn);
         basket_btn = (RelativeLayout) findViewById(R.id.basket_btn);
-        account_btn = (RelativeLayout) findViewById(R.id.account_btn);
 
         home_btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -105,20 +104,11 @@ public class MainActivity extends AppCompatActivity{
         if(loginState){
             register_btn.setVisibility(View.GONE);
             login_btn.setVisibility(View.GONE);
-            account_btn.setVisibility(View.VISIBLE);
-
-            account_btn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    startActivity(new Intent(MainActivity.this, UserDetails.class));
-                }
-            });
         }
         else
         {
             register_btn.setVisibility(View.VISIBLE);
             login_btn.setVisibility(View.VISIBLE);
-            account_btn.setVisibility(View.GONE);
 
             register_btn.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -163,7 +153,6 @@ public class MainActivity extends AppCompatActivity{
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main, menu);
-        menu.findItem(R.id.action_websearch).setVisible(false);
         return super.onCreateOptionsMenu(menu);
     }
 
